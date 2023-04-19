@@ -88,5 +88,9 @@ public class ClassStructsTests
 
         Assert.That(exp, Is.EqualTo(res));
     }
-
+    [Test]
+    public void SillyTest()
+    {
+        Assert.Fail();
+    }
 }
